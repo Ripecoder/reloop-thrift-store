@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RELOOP is a curated secondhand fashion store. Discover one-of-a-kind vintage and pre-loved pieces at prices you'll love. Good clothes deserve a second life." />
+  <meta name="theme-color" content="#f7f3ec" />
+  <title>RELOOP — Secondhand Fashion, First-Class Style</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%231b1b19'/%3E%3Ctext x='50' y='66' font-family='Arial' font-size='58' font-weight='bold' text-anchor='middle' fill='%23ff5c35'%3Er%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,400,0,1;9..144,500,0,1;9..144,600,0,1;9..144,700,0,1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement">
+    <div class="announcement-track">
+      <span>Free shipping on orders over $75</span>
+      <span class="dot">✦</span>
+      <span>New drops every Friday at 9am</span>
+      <span class="dot">✦</span>
+      <span>Every piece is one of a kind</span>
+      <span class="dot">✦</span>
+      <span>Free shipping on orders over $75</span>
+      <span class="dot">✦</span>
+      <span>New drops every Friday at 9am</span>
+      <span class="dot">✦</span>
+      <span>Every piece is one of a kind</span>
+      <span class="dot">✦</span>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#top" class="logo" aria-label="RELOOP home">re<span>:</span>loop<span class="logo-dot">.</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#shop">Shop all</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#story">Our story</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="searchToggle" aria-label="Open search" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </button>
+        <button class="icon-btn cart-btn" id="cartToggle" aria-label="Open shopping bag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+        <button class="hamburger" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="search-panel" id="searchPanel">
+      <div class="container search-panel-inner">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" id="searchInput" placeholder="Search for vintage denim, sneakers, dresses..." aria-label="Search products" />
+        <button id="searchClose" aria-label="Close search">Esc</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow reveal"><span class="eyebrow-line"></span> Curated secondhand fashion</div>
+          <h1 class="reveal">Good clothes.<br /><em>Second lives.</em></h1>
+          <p class="hero-text reveal">One-of-a-kind vintage and pre-loved pieces, hand-picked for the way you actually dress. Better for your wallet. Way better for the planet.</p>
+          <div class="hero-actions reveal">
+            <a href="#shop" class="btn btn-primary">Shop new arrivals <span aria-hidden="true">↗</span></a>
+            <a href="#categories" class="btn btn-outline">Explore categories</a>
+          </div>
+          <div class="hero-stats reveal">
+            <div class="stat"><strong>12k+</strong><span>Pieces rescued</span></div>
+            <div class="stat"><strong>4.9</strong><span>Average rating</span></div>
+            <div class="stat"><strong>100%</strong><span>One of a kind</span></div>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="hero-image-wrap">
+            <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&q=85&fit=crop" alt="A stylish rack of curated vintage clothing" fetchpriority="high" />
+          </div>
+          <div class="floating-card floating-card-top">
+            <span class="floating-icon">✦</span>
+            <div><strong>Fresh drop</strong><small>120 new pieces today</small></div>
+          </div>
+          <div class="floating-card floating-card-bottom">
+            <div class="avatar-stack"><span>J</span><span>M</span><span>A</span></div>
+            <div><strong>2,400+ happy loopers</strong><small>Join the movement</small></div>
+          </div>
+          <div class="hero-sticker">THRIFT<br />FIRST<span>®</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Pre-loved &amp; proud</span><span>✳</span><span>One of a kind</span><span>✳</span><span>Wear it again</span><span>✳</span><span>Sustainable style</span><span>✳</span>
+        <span>Pre-loved &amp; proud</span><span>✳</span><span>One of a kind</span><span>✳</span><span>Wear it again</span><span>✳</span><span>Sustainable style</span><span>✳</span>
+      </div>
+    </div>
+
+    <section class="trust container" aria-label="Why shop with us">
+      <div class="trust-item reveal"><span class="trust-icon">✦</span><div><strong>Hand-picked quality</strong><small>Every piece inspected by our team</small></div></div>
+      <div class="trust-item reveal"><span class="trust-icon">↺</span><div><strong>Easy 30-day returns</strong><small>Not the one? Send it back, no fuss</small></div></div>
+      <div class="trust-item reveal"><span class="trust-icon">♡</span><div><strong>Fashion with a conscience</strong><small>Keeping good clothes out of landfill</small></div></div>
+    </section>
+
+    <section class="categories section" id="categories">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> Find your thing</div>
+            <h2>Shop by <em>category</em></h2>
+          </div>
+          <a href="#shop" class="text-link">View everything <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="category-grid">
+          <a href="#shop" class="category-card reveal" data-category="women">
+            <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=700&q=80&fit=crop" alt="Women's vintage fashion" loading="lazy" />
+            <div class="category-shade"></div>
+            <div class="category-info"><h3>Women</h3><span>240+ pieces</span></div>
+            <span class="category-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="#shop" class="category-card reveal" data-category="men">
+            <img src="https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?w=700&q=80&fit=crop" alt="Men's vintage fashion" loading="lazy" />
+            <div class="category-shade"></div>
+            <div class="category-info"><h3>Men</h3><span>180+ pieces</span></div>
+            <span class="category-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="#shop" class="category-card reveal" data-category="vintage">
+            <img src="https://images.unsplash.com/photo-1479064555552-3ef4979f8908?w=700&q=80&fit=crop" alt="True vintage clothing" loading="lazy" />
+            <div class="category-shade"></div>
+            <div class="category-info"><h3>Vintage</h3><span>95+ pieces</span></div>
+            <span class="category-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="#shop" class="category-card reveal" data-category="shoes">
+            <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=700&q=80&fit=crop" alt="Secondhand sneakers" loading="lazy" />
+            <div class="category-shade"></div>
+            <div class="category-info"><h3>Sneakers</h3><span>70+ pairs</span></div>
+            <span class="category-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="#shop" class="category-card reveal" data-category="accessories">
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=700&q=80&fit=crop" alt="Vintage bags and accessories" loading="lazy" />
+            <div class="category-shade"></div>
+            <div class="category-info"><h3>Accessories</h3><span>130+ pieces</span></div>
+            <span class="category-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a href="#shop" class="category-card reveal" data-category="denim">
+            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700&q=80&fit=crop" alt="Pre-loved denim collection" loading="lazy" />
+            <div class="category-shade"></div>
+            <div class="category-info"><h3>Denim</h3><span>160+ pieces</span></div>
+            <span class="category-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop section" id="shop">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> The good stuff</div>
+            <h2>Fresh <em>finds</em> for you</h2>
+          </div>
+          <p class="section-note">Every piece is a one-off. When it's gone, it's gone.</p>
+        </div>
+
+        <div class="filter-bar reveal">
+          <div class="filter-tabs" role="tablist" aria-label="Filter products">
+            <button class="filter-tab is-active" role="tab" aria-selected="true" data-filter="all">All pieces</button>
+            <button class="filter-tab" role="tab" aria-selected="false" data-filter="new">New in</button>
+            <button class="filter-tab" role="tab" aria-selected="false" data-filter="budget">Under $40</button>
+            <button class="filter-tab" role="tab" aria-selected="false" data-filter="vintage">Vintage</button>
+          </div>
+          <span class="result-count" id="resultCount">8 pieces</span>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+          <article class="product-card reveal" data-name="Vintage Oversized Blazer" data-category="vintage" data-tags="new" data-price="48">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=700&q=80&fit=crop" alt="Vintage oversized blazer" loading="lazy" />
+              <span class="badge badge-new">New in</span>
+              <button class="wishlist" aria-label="Save Vintage Oversized Blazer" aria-pressed="false">♡</button>
+              <button class="quick-add" data-add="Vintage Oversized Blazer" data-price="48" data-img="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=200&q=70&fit=crop">+ Add to bag</button>
+            </div>
+            <div class="product-meta"><div><h3>Vintage Oversized Blazer</h3><p>Women · Size M</p></div><div class="price"><strong>$48</strong><s>$120</s></div></div>
+          </article>
+
+          <article class="product-card reveal" data-name="90s nylon Windbreaker" data-category="vintage men" data-tags="" data-price="36">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700&q=80&fit=crop" alt="90s nylon windbreaker" loading="lazy" />
+              <span class="badge badge-vintage">True vintage</span>
+              <button class="wishlist" aria-label="Save 90s nylon Windbreaker" aria-pressed="false">♡</button>
+              <button class="quick-add" data-add="90s nylon Windbreaker" data-price="36" data-img="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=200&q=70&fit=crop">+ Add to bag</button>
+            </div>
+            <div class="product-meta"><div><h3>90s nylon Windbreaker</h3><p>Men · Size L</p></div><div class="price"><strong>$36</strong><s>$85</s></div></div>
+          </article>
+
+          <article class="product-card reveal" data-name="Classic Denim Jacket" data-category="denim women men" data-tags="" data-price="42">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=700&q=80&fit=crop" alt="Classic denim jacket" loading="lazy" />
+              <span class="badge badge-new">New in</span>
+              <button class="wishlist" aria-label="Save Classic Denim Jacket" aria-pressed="false">♡</button>
+              <button class="quick-add" data-add="Classic Denim Jacket" data-price="42" data-img="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=200&q=70&fit=crop">+ Add to bag</button>
+            </div>
+            <div class="product-meta"><div><h3>Classic Denim Jacket</h3><p>Denim · Size S</p></div><div class="price"><strong>$42</strong><s>$110</s></div></div>
+          </article>
+
+          <article class="product-card reveal" data-name="Retro Runner Sneakers" data-category="shoes" data-tags="new" data-price="54">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700&q=80&fit=crop" alt="Retro running sneakers" loading="lazy" />
+              <span class="badge badge-new">New in</span>
+              <button class="wishlist" aria-label="Save Retro Runner Sneakers" aria-pressed="false">♡</button>
+              <button class="quick-add" data-add="Retro Runner Sneakers" data-price="54" data-img="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200&q=70&fit=crop">+ Add to bag</button>
+            </div>
+            <div class="product-meta"><div><h3>Retro Runner Sneakers</h3><p>Shoes · Size 9</p></div><div class="price"><strong>$54</strong><s>$130</s></div></div>
+          </article>
+
+          <article class="product-card reveal" data-name="Silk Slip Dress" data-category="women" data-tags="new" data-price="32">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700&q=80&fit=crop" alt="Silk slip dress" loading="lazy" />
+              <span class="badge badge-new">New in</span>
+              <button class="wishlist" aria-label="Save Silk Slip Dress" aria-pressed="false">♡</button>
+              <button class="quick-add" data-add="Silk Slip Dress" data-price="32" data-img="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=200&q=70&fit=crop">+ Add to bag</button>
+            </div>
+            <div class="product-meta"><div><h3>Silk Slip Dress</h3><p>Women · Size S</p></div><div class="price"><strong>$32</strong><s>$95</s></div></div>
+          </article>
+
+          <article class="product-card reveal" data-name="Leather Crossbody Bag" data-category="accessories vintage" data-tags="" data-price="44">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=700&q=80&fit=crop" alt="Leather crossbody bag" loading="lazy" />
+              <span class="badge badge-vintage">True vintage</span>
+              <button class="wishlist" aria-label="Save Leather Crossbody Bag" aria-pressed="false">♡</button>
+              <button class="quick-add" data-add="Leather Crossbody Bag" data-price="44" data-img="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=200&q=70&fit=crop">+ Add to bag</button>
+            </div>
+            <div class="product-meta"><div><h3>Leather Crossbody Bag</h3><p>Accessories · One size</p></div><div class="price"><strong>$44</strong><s>$140</s></div></div>
+          </article>
+
+          <article class="product-card reveal" data-name="Striped Knit Sweater" data-category="vintage women" data-tags="" data-price="28">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=700&q=80&fit=crop" alt="Striped knit sweater" loading="lazy" />
+              <span class="badge badge-vintage">True vintage</span>
+              <button class="wishlist" aria-label="Save Striped Knit Sweater" aria-pressed="false">♡</button>
+              <button class="quick-add" data-add="Striped Knit Sweater" data-price="28" data-img="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=200&q=70&fit=crop">+ Add to bag</button>
+            </div>
+            <div class="product-meta"><div><h3>Striped Knit Sweater</h3><p>Vintage · Size M</p></div><div class="price"><strong>$28</strong><s>$78</s></div></div>
+          </article>
+
+          <article class="product-card reveal" data-name="Wide Leg Trousers" data-category="women" data-tags="new" data-price="38">
+            <div class="product-image">
+              <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=700&q=80&fit=crop" alt="Wide leg trousers" loading="lazy" />
+              <span class="badge badge-new">New in</span>
+              <button class="wishlist" aria-label="Save Wide Leg Trousers" aria-pressed="false">♡</button>
+              <button class="quick-add" data-add="Wide Leg Trousers" data-price="38" data-img="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=200&q=70&fit=crop">+ Add to bag</button>
+            </div>
+            <div class="product-meta"><div><h3>Wide Leg Trousers</h3><p>Women · Size 8</p></div><div class="price"><strong>$38</strong><s>$99</s></div></div>
+          </article>
+        </div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <div class="empty-icon">⌕</div>
+          <h3>No pieces found</h3>
+          <p>Try another search or filter — there's always something new in the loop.</p>
+          <button class="btn btn-outline" id="clearFilters">Clear filters</button>
+        </div>
+
+        <div class="shop-footer reveal">
+          <p>New pieces added every Friday.</p>
+          <a href="#newsletter" class="text-link">Get first dibs <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="how section" id="how">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow"><span class="eyebrow-line"></span> Simple by design</div>
+            <h2>How the <em>loop</em> works</h2>
+          </div>
+          <p class="section-note">Great style shouldn't cost the earth. Here's how we keep it circulating.</p>
+        </div>
+        <div class="steps-grid">
+          <div class="step reveal"><span class="step-num">01</span><div class="step-icon">⌕</div><h3>Hunt it down</h3><p>Browse our ever-changing racks. Each piece is photographed and measured so you know exactly what you're getting.</p></div>
+          <div class="step reveal"><span class="step-num">02</span><div class="step-icon">♡</div><h3>Make it yours</h3><p>Found the one? Grab it before someone else does. Every order ships carbon-neutral in recyclable packaging.</p></div>
+          <div class="step reveal"><span class="step-num">03</span><div class="step-icon">↺</div><h3>Pass it on</h3><p>When you're ready for a change, send it back. We'll give it a new home — and you'll get store credit.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact" id="story">
+      <div class="container impact-grid">
+        <div class="impact-copy reveal">
+          <div class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Our story</div>
+          <h2>Fashion that <em>comes full circle.</em></h2>
+          <p>We started RELOOP with a simple idea: the best piece in your wardrobe has probably already had a first owner. We rescue, inspect and restyle quality clothing so it can be loved all over again.</p>
+          <a href="#shop" class="btn btn-light">Shop with purpose <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="impact-stats reveal">
+          <div class="impact-stat"><strong>12,400</strong><span>pieces given a second life</span></div>
+          <div class="impact-stat"><strong>68 tons</strong><span>of clothing kept from landfill</span></div>
+          <div class="impact-stat"><strong>4.2M</strong><span>litres of water saved</span></div>
+          <div class="impact-stat"><strong>1 of 1</strong><span>every single piece, always</span></div>
+        </div>
+      </div>
+      <img class="impact-bg" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600&q=70&fit=crop" alt="" aria-hidden="true" loading="lazy" />
+    </section>
+
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section-head reveal"><div><div class="eyebrow"><span class="eyebrow-line"></span> Good words</div><h2>Loved by <em>loopers</em></h2></div></div>
+        <div class="review-grid">
+          <div class="review-card reveal"><div class="stars">★★★★★</div><p>"Found a 90s leather jacket that fits like it was made for me. The quality is unreal for the price."</p><div class="reviewer"><span class="reviewer-avatar">JD</span><div><strong>Jamie D.</strong><small>Verified buyer</small></div></div></div>
+          <div class="review-card reveal"><div class="stars">★★★★★</div><p>"I stopped buying fast fashion entirely. RELOOP is the first place I check — the drops are always so good."</p><div class="reviewer"><span class="reviewer-avatar">MK</span><div><strong>Maya K.</strong><small>Verified buyer</small></div></div></div>
+          <div class="review-card reveal"><div class="stars">★★★★★</div><p>"Shipping was quick, packaging was lovely, and the denim jacket looks brand new. Instant repeat customer."</p><div class="reviewer"><span class="reviewer-avatar">AR</span><div><strong>Alex R.</strong><small>Verified buyer</small></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+      <div class="container newsletter-inner reveal">
+        <div>
+          <div class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Don't miss out</div>
+          <h2>First dibs on every <em>drop.</em></h2>
+          <p>Join 12,000+ loopers and get new arrivals, styling tips and 10% off your first order.</p>
+        </div>
+        <form class="newsletter-form" id="newsletterForm" novalidate>
+          <div class="input-wrap">
+            <input type="email" id="emailInput" placeholder="Your email address" aria-label="Your email address" required />
+            <button type="submit" class="btn btn-primary">Join the loop <span aria-hidden="true">↗</span></button>
+          </div>
+          <p class="form-message" id="formMessage" role="status"></p>
+          <small>No spam, ever. Unsubscribe anytime.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo">re<span>:</span>loop<span class="logo-dot">.</span></a>
+        <p>Secondhand fashion, first-class style. Good clothes deserve a second life.</p>
+        <div class="socials">
+          <a href="#top" aria-label="Instagram">ig</a>
+          <a href="#top" aria-label="TikTok">tt</a>
+          <a href="#top" aria-label="Pinterest">pn</a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Shop</h4><a href="#shop">New arrivals</a><a href="#categories">Women</a><a href="#categories">Men</a><a href="#categories">Vintage</a><a href="#categories">Accessories</a></div>
+      <div class="footer-col"><h4>Help</h4><a href="#how">Shipping &amp; returns</a><a href="#how">Size guide</a><a href="#how">How it works</a><a href="#how">Contact us</a><a href="#how">FAQs</a></div>
+      <div class="footer-col"><h4>About</h4><a href="#story">Our story</a><a href="#story">Sustainability</a><a href="#story">Sell with us</a><a href="#story">Careers</a><a href="#story">Press</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year">2026</span> RELOOP. All rights reserved.</span><span>Made for a better kind of fashion ♡</span></div>
+  </footer>
+
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="cart-header"><div><h2>Your bag</h2><span id="cartSubtitle">0 pieces</span></div><button class="cart-close" id="cartClose" aria-label="Close bag">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer">
+      <div class="cart-total"><span>Subtotal</span><strong id="cartTotal">$0</strong></div>
+      <p>Shipping and taxes calculated at checkout.</p>
+      <button class="btn btn-primary btn-block" id="checkoutBtn">Checkout <span aria-hidden="true">↗</span></button>
+      <button class="continue-btn" id="continueBtn">Keep shopping</button>
+    </div>
+  </aside>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
